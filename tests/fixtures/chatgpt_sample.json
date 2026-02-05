@@ -1,0 +1,106 @@
+[
+  {
+    "id": "conv-123",
+    "title": "Test Conversation",
+    "create_time": 1704067200.0,
+    "mapping": {
+      "node-1": {
+        "id": "node-1",
+        "message": {
+          "id": "msg-1",
+          "author": {
+            "role": "user"
+          },
+          "create_time": 1704067200.0,
+          "content": {
+            "parts": ["Hello, how are you?"]
+          },
+          "metadata": {}
+        }
+      },
+      "node-2": {
+        "id": "node-2",
+        "message": {
+          "id": "msg-2",
+          "author": {
+            "role": "assistant"
+          },
+          "create_time": 1704067210.0,
+          "content": {
+            "parts": ["I'm doing well, thank you! How can I help you today?"]
+          },
+          "metadata": {
+            "model_slug": "gpt-4"
+          }
+        }
+      },
+      "node-3": {
+        "id": "node-3",
+        "message": {
+          "id": "msg-3",
+          "author": {
+            "role": "user"
+          },
+          "create_time": 1704067220.0,
+          "content": {
+            "parts": ["Can you explain quantum computing?"]
+          },
+          "metadata": {}
+        }
+      },
+      "node-4": {
+        "id": "node-4",
+        "message": {
+          "id": "msg-4",
+          "author": {
+            "role": "assistant"
+          },
+          "create_time": 1704067230.0,
+          "content": {
+            "parts": ["Quantum computing is a type of computation that harnesses quantum mechanical phenomena..."]
+          },
+          "metadata": {
+            "model_slug": "gpt-4"
+          }
+        }
+      }
+    }
+  },
+  {
+    "conversation_id": "conv-456",
+    "title": "Python Help",
+    "create_time": 1704153600.0,
+    "mapping": {
+      "node-5": {
+        "id": "node-5",
+        "message": {
+          "id": "msg-5",
+          "author": {
+            "role": "user"
+          },
+          "create_time": 1704153600.0,
+          "content": {
+            "parts": ["Help me with Python list comprehensions"]
+          },
+          "metadata": {}
+        }
+      },
+      "node-6": {
+        "id": "node-6",
+        "message": {
+          "id": "msg-6",
+          "author": {
+            "role": "assistant"
+          },
+          "create_time": 1704153610.0,
+          "content": {
+            "parts": ["List comprehensions provide a concise way to create lists..."]
+          },
+          "metadata": {
+            "model_slug": "gpt-3.5-turbo"
+          }
+        }
+      }
+    }
+  }
+]

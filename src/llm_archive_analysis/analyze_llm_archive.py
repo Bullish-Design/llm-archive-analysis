@@ -27,10 +27,10 @@ import argparse
 import sys
 from pathlib import Path
 
-from analysis import analyze_archive
-from models import Archive
-from parsers import parse_archive
-from serializers import write_jsonl, write_summary_report
+from llm_archive_analysis.analysis import analyze_archive
+from llm_archive_analysis.models import Archive
+from llm_archive_analysis.parsers import parse_archive
+from llm_archive_analysis.serializers import write_jsonl, write_summary_report
 
 
 def main():

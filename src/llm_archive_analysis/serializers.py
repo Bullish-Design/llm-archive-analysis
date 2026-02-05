@@ -3,7 +3,7 @@
 import json
 from pathlib import Path
 
-from models import Archive, CostEstimate
+from llm_archive_analysis.models import Archive, CostEstimate
 
 
 def write_jsonl(items: list, output_path: Path) -> None:
