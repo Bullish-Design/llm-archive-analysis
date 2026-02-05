@@ -5,7 +5,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Literal
 
-from models import Archive, Conversation, Message, ModelUsage
+from llm_archive_analysis.models import Archive, Conversation, Message, ModelUsage
 
 
 def parse_chatgpt_export(file_path: Path) -> Archive:

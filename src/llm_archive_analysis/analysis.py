@@ -3,7 +3,7 @@
 from collections import defaultdict
 from typing import Dict
 
-from models import Archive, CostEstimate
+from llm_archive_analysis.models import Archive, CostEstimate
 
 
 PRICING_TABLE = {
